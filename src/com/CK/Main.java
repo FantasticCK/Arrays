@@ -7,8 +7,12 @@ public class Main {
         for (int i = 0; i < myIntArray.length; i++){
             myIntArray[i] = i * 10;
         }
-        for (int i = 0; i < 10; i++){
-            System.out.println(myIntArray[i]);;
+        printArray(myIntArray);
+    }
+
+    public static void  printArray(int[] Array){
+        for (int i = 0; i < Array.length; i++){
+            System.out.println(Array[i]);;
         }
     }
 }
